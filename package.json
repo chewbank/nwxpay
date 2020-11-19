@@ -1,0 +1,26 @@
+{
+  "name": "@chewbank/nwxpay",
+  "version": "0.0.1",
+  "dependencies": {
+    "urllib": "^2.33.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "微信支付",
+  "devDependencies": {
+    "mocha": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "./lib",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "travis": "TESTER=travis mocha"
+  }
+}
